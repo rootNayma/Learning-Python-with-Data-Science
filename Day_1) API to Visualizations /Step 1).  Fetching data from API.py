@@ -3,8 +3,9 @@
 
 # ┌───────────────────────────────┐
 # │          N  O  T  E           │
-# │     Only use Clean Code       │
+# │     only Run Clean Code       │
 # └───────────────────────────────┘
+
 
 
 # first we need to install some libraries 
