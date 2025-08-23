@@ -1,4 +1,13 @@
 
+
+# ┌───────────────────────────────┐
+# │          N  O  T  E           │
+# │     Only use Clean Code       │
+# └───────────────────────────────┘
+
+
+
+
 launches = launches[["name", "success", "date_utc", "flight_number"]].copy[]   # ok, so here we are using.copy[] beacuse we dont want to over write the orginal dataframe so.
 """ This part is also called as cleaning because we are selecting manually which comlumns to add"""
 
