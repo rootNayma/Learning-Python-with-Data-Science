@@ -1,24 +1,19 @@
-
-
-
-import requests
-import pandas as pd
 all_books=[]
 for page in range(1,11):                                                        # in step 2) this is the only difference
                                                                                 # here this code will run loop through every page 
 
                                                                                 # so, how are we conncecting the loop code with the website ??
-                                                                                # answer is the "page"
+                                                                                # answer is the "page", f, {page}
                                                                                 # ------for "page" in range(1,11): -------
                                                                                 # urls = f"https://books.toscrape.com/catalogue/page-{page}.html"
 
-                                                                                # for "page" is connceted to urls "{page}"
+                                                                                # for "page" is connceted to urls "f" and {page}"
                                                                               
                                                                           
                                                                                 
 
 
-  urls = f"https://books.toscrape.com/catalogue/page-{page}.html"               # from here all code are same as of step 1) scarping the website
+  urls = f"https://books.toscrape.com/catalogue/page-{page}.html"               # f = tells Python: replace the curly braces {} with the variable’s value
   print(urls)
 
   
