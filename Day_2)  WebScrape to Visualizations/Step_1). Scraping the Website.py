@@ -97,7 +97,7 @@ for art in soup.select("article.product_pod"):                                  
                                                                               
   #books.append(stars)
 
-  books.append({"title":title, "price":price, "Stars":stars})
+  books.append({"Title":title, "Price":price, "Stars":stars})
 
 print(books)
 
@@ -123,6 +123,6 @@ for art in soup.select("article.product_pod"):
   rating_class = art.p["class"][1]
   stars_map = {"One":1, "Two":2, "Three":3, "Four":4, "Five":5}
   stars = stars_map[rating_class]
-  books.append({"title":title, "price":price, "Stars":stars})
+  books.append({"Title":title, "Price":price, "Stars":stars})
 
 
