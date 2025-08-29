@@ -1,3 +1,8 @@
+import requests
+from bs4 import BeautifulSoup
+
+
+
 all_books=[]
 for page in range(1,11):                                                        # in step 2) this is the only difference
                                                                                 # here this code will run loop through every page 
