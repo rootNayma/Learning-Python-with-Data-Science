@@ -1,4 +1,4 @@
-# This course was provided by Dlytica and taught by sir. Subhan Singh Karki. 
+# This course was provided by Respected Dlytica and taught by Respected Subhan Singh Karki sir.
 # so lets get started right into the codes.
 
 # ┌───────────────────────────────┐
