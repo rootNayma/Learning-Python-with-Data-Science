@@ -17,7 +17,7 @@ books_df = pd.DataFrame(all_books)                                              
 
 
 per_star = books_df.groupby("Stars").Price.mean()                               # df.groupby = is grouping the dataframe with Stars
-                                                                                # like this
+                                                                                # all books with Stars = 1 → one group, Stars = 2 → another group, etc
 
                                                                                 # | Stars | title  | price |
                                                                                 # | ----- | ------ | ----- |
