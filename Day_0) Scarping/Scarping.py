@@ -82,7 +82,7 @@ from bs4 import BeautifulSoup
 # Step 1). Fetching the website
 url = "http://quotes.toscrape.com/"
 response = requests.get(url)
-print(response.text)
+#print(response.text)
 
 # Step 2). Parsing the response using beautifulsoup
 soup = BeautifulSoup(response.text, "html.parser")
