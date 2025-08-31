@@ -64,10 +64,6 @@ for i in range(len(quotes)):                                                    
 # Step 7: Convert to DataFrame
 books_df = pd.DataFrame(book)                                                   # pd.DataFrame() = converting book into dataframe (pd is for panda )
 
-
-books_df.to_csv("author_profile_extraction_nyamasang.csv", index=False)         # making whole code into csv file.
-
-
 print(books_df)                                                                 # finally print !!!!!
 
 
@@ -111,7 +107,6 @@ for i in range(len(quotes)):
     })
 
 books_df = pd.DataFrame(book)
-books_df.to_csv("author_profile_extraction_name001.csv", index=False) 
 print(books_df)
 
 
