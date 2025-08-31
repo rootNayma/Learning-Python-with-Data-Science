@@ -4,6 +4,10 @@
 # │     only Run Clean Code       │
 # └───────────────────────────────┘
 
+# For each quote you already collected, follow its author’s link (e.g. the href from block.find("a"))
+# On each author page, scrape birth date and birth location (both are in <span class="author-born-date"> and <span class="author-born-location">).
+# Append these two new fields to your existing CSV of quotes.
+
 
 import requests
 from bs4 import BeautifulSoup
